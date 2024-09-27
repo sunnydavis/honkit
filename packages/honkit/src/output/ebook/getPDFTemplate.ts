@@ -22,7 +22,7 @@ function getPDFTemplate(output, type) {
     // @ts-expect-error ts-migrate(2339) FIXME: Property 'page' does not exist on type '{ summary:... Remove this comment to see the full error message
     context.page = {
         num: "_PAGENUM_",
-        title: "_SECTION_"
+        title: "_TITLE_"
     };
 
     // Render the theme
